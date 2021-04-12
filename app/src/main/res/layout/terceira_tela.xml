@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/telaProduto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Tela do Produto"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textoPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20dp"
+        android:text="Exemplo1"
+        android:layout_below="@id/telaProduto"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textoCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Código"
+        android:layout_below="@id/textoPrincipal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:textSize="14dp"
+        android:textColor="#333939"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/textoSecundario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Exemplo 2"
+        android:layout_below="@id/textoCodigo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:textSize="14dp"
+        android:textColor="@color/teal_700"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/textoValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Valor (R$)"
+        android:layout_below="@id/textoSecundario"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:textSize="14dp"
+        android:textColor="#333939"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/textoTerciario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Exemplo 3"
+        android:layout_below="@id/textoValor"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:textSize="14dp"
+        android:textColor="@color/teal_700"
+
+        ></TextView>
+
+    <Button
+        android:id="@+id/botaoVoltar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#009688"
+        ></Button>
+</RelativeLayout>
